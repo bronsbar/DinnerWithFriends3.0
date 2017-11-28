@@ -13,6 +13,17 @@
 		CC3FEBCC1FCD9449002F5F41 /* DinnerWithFriends3_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC3FEBCA1FCD9449002F5F41 /* DinnerWithFriends3_0.xcdatamodeld */; };
 		CC3FEBCE1FCD9449002F5F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3FEBCD1FCD9449002F5F41 /* Assets.xcassets */; };
 		CC3FEBD11FCD9449002F5F41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3FEBCF1FCD9449002F5F41 /* LaunchScreen.storyboard */; };
+		CC3FEBD91FCD9BED002F5F41 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FEBD81FCD9BED002F5F41 /* CoreDataStack.swift */; };
+		CC3FEBE41FCDA140002F5F41 /* Starter+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FEBDA1FCDA140002F5F41 /* Starter+CoreDataClass.swift */; };
+		CC3FEBE51FCDA140002F5F41 /* Starter+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FEBDB1FCDA140002F5F41 /* Starter+CoreDataProperties.swift */; };
+		CC3FEBE61FCDA140002F5F41 /* Main+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FEBDC1FCDA140002F5F41 /* Main+CoreDataClass.swift */; };
+		CC3FEBE71FCDA140002F5F41 /* Main+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FEBDD1FCDA140002F5F41 /* Main+CoreDataProperties.swift */; };
+		CC3FEBE81FCDA140002F5F41 /* Dinner+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FEBDE1FCDA140002F5F41 /* Dinner+CoreDataClass.swift */; };
+		CC3FEBE91FCDA140002F5F41 /* Dinner+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FEBDF1FCDA140002F5F41 /* Dinner+CoreDataProperties.swift */; };
+		CC3FEBEA1FCDA140002F5F41 /* Dessert+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FEBE01FCDA140002F5F41 /* Dessert+CoreDataClass.swift */; };
+		CC3FEBEB1FCDA140002F5F41 /* Dessert+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FEBE11FCDA140002F5F41 /* Dessert+CoreDataProperties.swift */; };
+		CC3FEBEC1FCDA140002F5F41 /* Wine+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FEBE21FCDA140002F5F41 /* Wine+CoreDataClass.swift */; };
+		CC3FEBED1FCDA140002F5F41 /* Wine+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FEBE31FCDA140002F5F41 /* Wine+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		CC3FEBCD1FCD9449002F5F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC3FEBD01FCD9449002F5F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC3FEBD21FCD9449002F5F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3FEBD81FCD9BED002F5F41 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		CC3FEBDA1FCDA140002F5F41 /* Starter+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Starter+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CC3FEBDB1FCDA140002F5F41 /* Starter+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Starter+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CC3FEBDC1FCDA140002F5F41 /* Main+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Main+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CC3FEBDD1FCDA140002F5F41 /* Main+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Main+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CC3FEBDE1FCDA140002F5F41 /* Dinner+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dinner+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CC3FEBDF1FCDA140002F5F41 /* Dinner+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dinner+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CC3FEBE01FCDA140002F5F41 /* Dessert+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dessert+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CC3FEBE11FCDA140002F5F41 /* Dessert+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dessert+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CC3FEBE21FCDA140002F5F41 /* Wine+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wine+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CC3FEBE31FCDA140002F5F41 /* Wine+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wine+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +62,16 @@
 		CC3FEBB71FCD9449002F5F41 = {
 			isa = PBXGroup;
 			children = (
+				CC3FEBDA1FCDA140002F5F41 /* Starter+CoreDataClass.swift */,
+				CC3FEBDB1FCDA140002F5F41 /* Starter+CoreDataProperties.swift */,
+				CC3FEBDC1FCDA140002F5F41 /* Main+CoreDataClass.swift */,
+				CC3FEBDD1FCDA140002F5F41 /* Main+CoreDataProperties.swift */,
+				CC3FEBDE1FCDA140002F5F41 /* Dinner+CoreDataClass.swift */,
+				CC3FEBDF1FCDA140002F5F41 /* Dinner+CoreDataProperties.swift */,
+				CC3FEBE01FCDA140002F5F41 /* Dessert+CoreDataClass.swift */,
+				CC3FEBE11FCDA140002F5F41 /* Dessert+CoreDataProperties.swift */,
+				CC3FEBE21FCDA140002F5F41 /* Wine+CoreDataClass.swift */,
+				CC3FEBE31FCDA140002F5F41 /* Wine+CoreDataProperties.swift */,
 				CC3FEBC21FCD9449002F5F41 /* DinnerWithFriends3.0 */,
 				CC3FEBC11FCD9449002F5F41 /* Products */,
 			);
@@ -63,6 +95,7 @@
 				CC3FEBCF1FCD9449002F5F41 /* LaunchScreen.storyboard */,
 				CC3FEBD21FCD9449002F5F41 /* Info.plist */,
 				CC3FEBCA1FCD9449002F5F41 /* DinnerWithFriends3_0.xcdatamodeld */,
+				CC3FEBD81FCD9BED002F5F41 /* CoreDataStack.swift */,
 			);
 			path = DinnerWithFriends3.0;
 			sourceTree = "<group>";
@@ -139,9 +172,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC3FEBEC1FCDA140002F5F41 /* Wine+CoreDataClass.swift in Sources */,
+				CC3FEBEB1FCDA140002F5F41 /* Dessert+CoreDataProperties.swift in Sources */,
+				CC3FEBE71FCDA140002F5F41 /* Main+CoreDataProperties.swift in Sources */,
+				CC3FEBE91FCDA140002F5F41 /* Dinner+CoreDataProperties.swift in Sources */,
+				CC3FEBE51FCDA140002F5F41 /* Starter+CoreDataProperties.swift in Sources */,
 				CC3FEBCC1FCD9449002F5F41 /* DinnerWithFriends3_0.xcdatamodeld in Sources */,
+				CC3FEBED1FCDA140002F5F41 /* Wine+CoreDataProperties.swift in Sources */,
+				CC3FEBEA1FCDA140002F5F41 /* Dessert+CoreDataClass.swift in Sources */,
+				CC3FEBE81FCDA140002F5F41 /* Dinner+CoreDataClass.swift in Sources */,
 				CC3FEBC61FCD9449002F5F41 /* ViewController.swift in Sources */,
 				CC3FEBC41FCD9449002F5F41 /* AppDelegate.swift in Sources */,
+				CC3FEBE41FCDA140002F5F41 /* Starter+CoreDataClass.swift in Sources */,
+				CC3FEBD91FCD9BED002F5F41 /* CoreDataStack.swift in Sources */,
+				CC3FEBE61FCDA140002F5F41 /* Main+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,4 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="17B48" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Dessert" representedClassName="Dessert" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="URI" syncable="YES"/>
+        <relationship name="dinner" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Dinner" inverseName="dessert" inverseEntity="Dinner" syncable="YES"/>
+    </entity>
+    <entity name="Dinner" representedClassName="Dinner" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="friends" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" storedInTruthFile="YES" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="dessert" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Dessert" inverseName="dinner" inverseEntity="Dessert" syncable="YES"/>
+        <relationship name="main" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Main" inverseName="dinner" inverseEntity="Main" syncable="YES"/>
+        <relationship name="starter" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Starter" inverseName="dinner" inverseEntity="Starter" syncable="YES"/>
+        <relationship name="wine" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Wine" inverseName="dinner" inverseEntity="Wine" syncable="YES"/>
+    </entity>
+    <entity name="Main" representedClassName="Main" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="URI" syncable="YES"/>
+        <relationship name="dinner" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Dinner" inverseName="main" inverseEntity="Dinner" syncable="YES"/>
+    </entity>
+    <entity name="Starter" representedClassName="Starter" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="URI" syncable="YES"/>
+        <relationship name="dinner" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Dinner" inverseName="starter" inverseEntity="Dinner" syncable="YES"/>
+    </entity>
+    <entity name="Wine" representedClassName="Wine" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="URI" syncable="YES"/>
+        <relationship name="dinner" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Dinner" inverseName="wine" inverseEntity="Dinner" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Dinner" positionX="-371" positionY="-243" width="128" height="178"/>
+        <element name="Starter" positionX="-11" positionY="-106" width="128" height="133"/>
+        <element name="Main" positionX="25" positionY="72" width="128" height="133"/>
+        <element name="Dessert" positionX="-9" positionY="-252" width="128" height="133"/>
+        <element name="Wine" positionX="-396" positionY="171" width="128" height="148"/>
+    </elements>
 </model>
