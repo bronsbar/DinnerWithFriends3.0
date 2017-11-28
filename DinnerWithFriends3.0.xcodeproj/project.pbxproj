@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC3FEBC41FCD9449002F5F41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FEBC31FCD9449002F5F41 /* AppDelegate.swift */; };
+		CC3FEBC61FCD9449002F5F41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FEBC51FCD9449002F5F41 /* ViewController.swift */; };
+		CC3FEBC91FCD9449002F5F41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3FEBC71FCD9449002F5F41 /* Main.storyboard */; };
+		CC3FEBCC1FCD9449002F5F41 /* DinnerWithFriends3_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC3FEBCA1FCD9449002F5F41 /* DinnerWithFriends3_0.xcdatamodeld */; };
+		CC3FEBCE1FCD9449002F5F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3FEBCD1FCD9449002F5F41 /* Assets.xcassets */; };
+		CC3FEBD11FCD9449002F5F41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3FEBCF1FCD9449002F5F41 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC3FEBC01FCD9449002F5F41 /* DinnerWithFriends3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinnerWithFriends3.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3FEBC31FCD9449002F5F41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC3FEBC51FCD9449002F5F41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC3FEBC81FCD9449002F5F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC3FEBCB1FCD9449002F5F41 /* DinnerWithFriends3_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DinnerWithFriends3_0.xcdatamodel; sourceTree = "<group>"; };
+		CC3FEBCD1FCD9449002F5F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC3FEBD01FCD9449002F5F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC3FEBD21FCD9449002F5F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC3FEBBD1FCD9449002F5F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC3FEBB71FCD9449002F5F41 = {
+			isa = PBXGroup;
+			children = (
+				CC3FEBC21FCD9449002F5F41 /* DinnerWithFriends3.0 */,
+				CC3FEBC11FCD9449002F5F41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC3FEBC11FCD9449002F5F41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC3FEBC01FCD9449002F5F41 /* DinnerWithFriends3.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC3FEBC21FCD9449002F5F41 /* DinnerWithFriends3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				CC3FEBC31FCD9449002F5F41 /* AppDelegate.swift */,
+				CC3FEBC51FCD9449002F5F41 /* ViewController.swift */,
+				CC3FEBC71FCD9449002F5F41 /* Main.storyboard */,
+				CC3FEBCD1FCD9449002F5F41 /* Assets.xcassets */,
+				CC3FEBCF1FCD9449002F5F41 /* LaunchScreen.storyboard */,
+				CC3FEBD21FCD9449002F5F41 /* Info.plist */,
+				CC3FEBCA1FCD9449002F5F41 /* DinnerWithFriends3_0.xcdatamodeld */,
+			);
+			path = DinnerWithFriends3.0;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC3FEBBF1FCD9449002F5F41 /* DinnerWithFriends3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3FEBD51FCD9449002F5F41 /* Build configuration list for PBXNativeTarget "DinnerWithFriends3.0" */;
+			buildPhases = (
+				CC3FEBBC1FCD9449002F5F41 /* Sources */,
+				CC3FEBBD1FCD9449002F5F41 /* Frameworks */,
+				CC3FEBBE1FCD9449002F5F41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinnerWithFriends3.0;
+			productName = DinnerWithFriends3.0;
+			productReference = CC3FEBC01FCD9449002F5F41 /* DinnerWithFriends3.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC3FEBB81FCD9449002F5F41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Bart Bronselaer";
+				TargetAttributes = {
+					CC3FEBBF1FCD9449002F5F41 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CC3FEBBB1FCD9449002F5F41 /* Build configuration list for PBXProject "DinnerWithFriends3.0" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC3FEBB71FCD9449002F5F41;
+			productRefGroup = CC3FEBC11FCD9449002F5F41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC3FEBBF1FCD9449002F5F41 /* DinnerWithFriends3.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC3FEBBE1FCD9449002F5F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3FEBD11FCD9449002F5F41 /* LaunchScreen.storyboard in Resources */,
+				CC3FEBCE1FCD9449002F5F41 /* Assets.xcassets in Resources */,
+				CC3FEBC91FCD9449002F5F41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC3FEBBC1FCD9449002F5F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3FEBCC1FCD9449002F5F41 /* DinnerWithFriends3_0.xcdatamodeld in Sources */,
+				CC3FEBC61FCD9449002F5F41 /* ViewController.swift in Sources */,
+				CC3FEBC41FCD9449002F5F41 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC3FEBC71FCD9449002F5F41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3FEBC81FCD9449002F5F41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC3FEBCF1FCD9449002F5F41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3FEBD01FCD9449002F5F41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC3FEBD31FCD9449002F5F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC3FEBD41FCD9449002F5F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC3FEBD61FCD9449002F5F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C26YUS4LJ8;
+				INFOPLIST_FILE = DinnerWithFriends3.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bart.bronselaer.DinnerWithFriends3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC3FEBD71FCD9449002F5F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C26YUS4LJ8;
+				INFOPLIST_FILE = DinnerWithFriends3.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bart.bronselaer.DinnerWithFriends3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC3FEBBB1FCD9449002F5F41 /* Build configuration list for PBXProject "DinnerWithFriends3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3FEBD31FCD9449002F5F41 /* Debug */,
+				CC3FEBD41FCD9449002F5F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3FEBD51FCD9449002F5F41 /* Build configuration list for PBXNativeTarget "DinnerWithFriends3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3FEBD61FCD9449002F5F41 /* Debug */,
+				CC3FEBD71FCD9449002F5F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC3FEBCA1FCD9449002F5F41 /* DinnerWithFriends3_0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC3FEBCB1FCD9449002F5F41 /* DinnerWithFriends3_0.xcdatamodel */,
+			);
+			currentVersion = CC3FEBCB1FCD9449002F5F41 /* DinnerWithFriends3_0.xcdatamodel */;
+			path = DinnerWithFriends3_0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC3FEBB81FCD9449002F5F41 /* Project object */;
+}
