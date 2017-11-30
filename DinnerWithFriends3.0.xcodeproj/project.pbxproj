@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		44FA320E1FCDEC0C00C449BF /* DinnerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FA320D1FCDEC0C00C449BF /* DinnerTableViewController.swift */; };
+		CC31B5741FCEFB3400567559 /* DinnerDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC31B5731FCEFB3400567559 /* DinnerDetailTableViewController.swift */; };
 		CC3FEBC41FCD9449002F5F41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FEBC31FCD9449002F5F41 /* AppDelegate.swift */; };
 		CC3FEBC61FCD9449002F5F41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3FEBC51FCD9449002F5F41 /* ViewController.swift */; };
 		CC3FEBC91FCD9449002F5F41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3FEBC71FCD9449002F5F41 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		44FA320D1FCDEC0C00C449BF /* DinnerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnerTableViewController.swift; sourceTree = "<group>"; };
+		CC31B5731FCEFB3400567559 /* DinnerDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnerDetailTableViewController.swift; sourceTree = "<group>"; };
 		CC3FEBC01FCD9449002F5F41 /* DinnerWithFriends3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinnerWithFriends3.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3FEBC31FCD9449002F5F41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC3FEBC51FCD9449002F5F41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			children = (
 				CC3FEBC31FCD9449002F5F41 /* AppDelegate.swift */,
 				44FA320D1FCDEC0C00C449BF /* DinnerTableViewController.swift */,
+				CC31B5731FCEFB3400567559 /* DinnerDetailTableViewController.swift */,
 				CC3FEBC51FCD9449002F5F41 /* ViewController.swift */,
 				CC3FEBC71FCD9449002F5F41 /* Main.storyboard */,
 				CC3FEBCD1FCD9449002F5F41 /* Assets.xcassets */,
@@ -185,6 +188,7 @@
 				CC3FEBED1FCDA140002F5F41 /* Wine+CoreDataProperties.swift in Sources */,
 				CC3FEBEA1FCDA140002F5F41 /* Dessert+CoreDataClass.swift in Sources */,
 				CC3FEBE81FCDA140002F5F41 /* Dinner+CoreDataClass.swift in Sources */,
+				CC31B5741FCEFB3400567559 /* DinnerDetailTableViewController.swift in Sources */,
 				CC3FEBC61FCD9449002F5F41 /* ViewController.swift in Sources */,
 				CC3FEBC41FCD9449002F5F41 /* AppDelegate.swift in Sources */,
 				CC3FEBE41FCDA140002F5F41 /* Starter+CoreDataClass.swift in Sources */,
